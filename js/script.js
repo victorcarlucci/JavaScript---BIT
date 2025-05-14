@@ -185,6 +185,56 @@ console.log('resultado:' , resultado) */
 console.log('resultado:' , resultado) */
 
 
+/* Crear una función que reciba una palabra, si la palabra es "hola" imprimir por consola "hola" */
+
+function saludar(palabra) {
+    if (palabra === "hola") {
+        console.log("hola");
+    } else {
+        console.log("No es hola");
+    }
+}
+
+saludar("hola"); 
+
+/* crear una función que reciba con tres parametros:
+
+1. Recibir un número
+2. Recibir otro número
+3. Recibir una palabra
+
+la funcion va a mostrar el resultado de la aritméticas básicas según llamado. */
+
+function calcular(num1, num2, operacion) {
+    let resultado;
+    switch (operacion) {
+        case "suma":
+            resultado = num1 + num2;
+            break;
+        case "resta":
+            resultado = num1 - num2;
+            break;
+        case "multiplicacion":
+            resultado = num1 * num2;
+            break;
+        case "division":
+            resultado = num1 / num2;
+            break;
+        default:
+            console.log("Operación no válida");
+            return;
+    }
+    
+    
+    console.log(`El resultado de la ${operacion} es: ${resultado}`);
+}
+
+calcular(10, 5, "suma"); 
+calcular(10, 5, "resta"); 
+calcular(10, 5, "multiplicacion"); 
+calcular(10, 5, "division"); 
+
+
 
 
 
