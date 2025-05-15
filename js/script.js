@@ -205,7 +205,7 @@ saludar("hola");
 
 la funcion va a mostrar el resultado de la aritméticas básicas según llamado. */
 
-function calcular(num1, num2, operacion) {
+/* function calcular(num1, num2, operacion) {
     let resultado;
     switch (operacion) {
         case "suma":
@@ -232,9 +232,27 @@ function calcular(num1, num2, operacion) {
 calcular(10, 5, "suma"); 
 calcular(10, 5, "resta"); 
 calcular(10, 5, "multiplicacion"); 
-calcular(10, 5, "division"); 
+calcular(10, 5, "division"); */
+
+/* Leer un nombre de usuario y una contraseña,
+- Si el usuario es "pepa" y la contraseña es "ABC123" mostrar "Bienvenida"
+- De otra manera mostrar: "Acceso denegado".
+*/
+
+function verificarAcceso(usuario,contraseña) {
+    if (usuario === "pepa" && contraseña === "ABC123") {
+        console.log("Bienvenida");
+    } else {
+        console.log("Acceso denegado");
+    }
+}
+
+verificarAcceso("pepa", "ABC123");
+verificarAcceso("pepa", "123ABC");
 
 
+    
+  
 
 
 
