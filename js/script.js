@@ -250,8 +250,54 @@ function verificarAcceso(usuario,contraseña) {
 verificarAcceso("pepa", "ABC123");
 verificarAcceso("pepa", "123ABC");
 
+//Nueva clase
 
+// Estructura de datos
+//variable
+//arreglo,array,lista,matriz
+
+//Areglos
+
+/* Se crean con un [] entonces, nace como una variable "let o const" pero si despues del signo igual (=) hay un ([) quiere decir que es un arreglo, por ejemplo:
+
+let miArreglo = ["hola"], esto quiere decir que LET es para crear el arreglo "miArreglo" hasta ahi parece una variable, pero al poner el [] es un arreglo*/ 
     
+let miArreglo = ["hola"];
+console.log(miArreglo);
+
+//Dentro de los corchetes se pueden poner varios valores, por ejemplo:
+let miArreglo2 = ["hola", "mundo", 1, 2, 3, true, false];
+console.log(miArreglo2);
+//El arreglo puede tener diferentes tipos de datos, por ejemplo: string, number, boolean, etc.
+
+//Loops, ciclo, bucle, iteración
+//Es una forma de repetir un bloque de código varias veces, por ejemplo: si quiero que el programa imprima 10 veces "Hola" en la consola, lo puedo hacer con un bucle
+//for, while, do while
+//for: se usa cuando sabemos cuantas veces queremos repetir el bloque de código
+//while: se usa cuando no sabemos cuantas veces queremos repetir el bloque de código, pero sabemos que hay una condición que se va a cumplir
+//do while: se usa cuando queremos que el bloque de código se ejecute al menos una vez, y luego se evalua la condición
+
+
+//for: se usa cuando sabemos cuantas veces queremos repetir el bloque de código
+
+//Ejemplo: quiero que el programa imprima 101 veces "Hola" en la consola
+for(let i=1; i <=101; i++){        //i significa "index" y es una variable que se usa para contar.
+    //bloque de código
+
+    console.log(i)
+} 
+
+//Guardar los nombres de 10 paises e imprimir uno a uno por consola
+let paises = ["Argentina", "Brasil", "Chile", "Colombia", "Ecuador", "Perú", "Uruguay", "Paraguay", "Venezuela", "Bolivia"];
+for(let i=0; i < paises.length; i++){
+    console.log(paises[i]);
+}
+//length es una propiedad que nos dice cuantas posiciones tiene el arreglo, en este caso 10
+
+// While: se usa cuando no sabemos cuantas veces queremos repetir el bloque de código, pero sabemos que hay una condición que se va a cumplir
+
+
+
   
 
 
