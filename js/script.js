@@ -296,9 +296,24 @@ for(let i=0; i < paises.length; i++){
 
 // While: se usa cuando no sabemos cuantas veces queremos repetir el bloque de código, pero sabemos que hay una condición que se va a cumplir
 
+/* Crear una función
+- Recibir por parámetros nombre y apellido
+- Guardar los parámetros recibidos en un objeto
+- Imprimir nombre completo usando el objeto
+*/
+
+function printName(name, lastname) {
+ 
+    const object = {
+        name: name,
+        lastname: lastname,
+    };
+    console.log( 'Nombre completo: ' + object.name + ' ' + object.lastname);
+}
+
+printName("Victor", "Carlucci");
 
 
-  
 
 
 
