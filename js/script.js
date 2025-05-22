@@ -187,7 +187,7 @@ console.log('resultado:' , resultado) */
 
 /* Crear una función que reciba una palabra, si la palabra es "hola" imprimir por consola "hola" */
 
-function saludar(palabra) {
+/* function saludar(palabra) {
     if (palabra === "hola") {
         console.log("hola");
     } else {
@@ -239,7 +239,7 @@ calcular(10, 5, "division"); */
 - De otra manera mostrar: "Acceso denegado".
 */
 
-function verificarAcceso(usuario,contraseña) {
+/*  function verificarAcceso(usuario,contraseña) {
     if (usuario === "pepa" && contraseña === "ABC123") {
         console.log("Bienvenida");
     } else {
@@ -262,8 +262,8 @@ verificarAcceso("pepa", "123ABC");
 
 let miArreglo = ["hola"], esto quiere decir que LET es para crear el arreglo "miArreglo" hasta ahi parece una variable, pero al poner el [] es un arreglo*/ 
     
-let miArreglo = ["hola"];
-console.log(miArreglo);
+ /*  let miArreglo = ["hola"];
+    console.log(miArreglo);
 
 //Dentro de los corchetes se pueden poner varios valores, por ejemplo:
 let miArreglo2 = ["hola", "mundo", 1, 2, 3, true, false];
@@ -302,18 +302,28 @@ for(let i=0; i < paises.length; i++){
 - Imprimir nombre completo usando el objeto
 */
 
-function printName(name, lastname) {
- 
-    const object = {
-        name: name,
-        lastname: lastname,
-    };
-    console.log( 'Nombre completo: ' + object.name + ' ' + object.lastname);
-}
+/*        function printName(name, lastname) {
+        
+            const object = {
+                name: name,
+                lastname: lastname,
+            };
+            console.log( 'Nombre completo: ' + object.name + ' ' + object.lastname);
+        }
 
 printName("Victor", "Carlucci");
 
+*/
 
+// formas de crear variables 
+
+let numero1;
+
+numero1 = 10; 
+
+let numero2 = 14;
+
+// booleanos son TRUE o FALSE
 
 
 
